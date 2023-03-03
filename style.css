@@ -1,35 +1,16 @@
 body {
 background-size: cover;
 }
+#song_name {
+width: fit-content;
+height: 40px;
+font-size: 20px;
+}
 .heading {
-font-size: 23px;
+font-size: 25px;
 width: 100%;
-margin: 0px;
 }
 .note {
 color: black;
 font-size: 15px;
-}
-#volume_div {
-float: right;
-}
-#speed_div {
-    float: left;
-}
-.div_speed_img {
-width: 200px;
-border-radius: 100px;
-}
-#speed, #volume {
-font-size: 23px;
-margin: 15px;
-}
-.play_button {
-border-radius: 15px;
-width: 130px;
-font-size: 25px;
-}
-canvas {
-border-radius: 20px;
-border: 5px solid white;
 }
